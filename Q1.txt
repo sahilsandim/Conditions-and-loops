@@ -1,0 +1,112 @@
+    Conditional statement is an block of code that will be executed by
+    the basis of their conditions.If particular condition meet the executed conditions then it
+    will executed.
+    
+    Different methods of conditional statement:-
+    1-If Statement
+       If condition is true them code of block will be executed
+    syntax:-
+     if(condition){
+        // If condition met code will be executed.
+    }
+
+    example:- let a = 6;
+             if(a % 2 === 0){
+                console.log("even Number")
+             }
+             if(a % 2 !== 0){
+                console.log("Odd number")
+             }
+
+    2-If-Else Statement
+    It will perform a condition based on the output 
+    of the code block.
+    
+    suntax:-
+    if(){
+    // Execute when condition is true
+    }else{
+        // Execute when condition is true
+
+    }
+
+    example:- let num = 10;
+    if(num >= 8){
+        console.log("You can come to ride")
+    }
+    else{
+        console.log("You cannot come to rides")
+    }
+
+    3-Else if Statement
+    This will handle multiple conditions at once based on their conditions
+
+    const value = 0;
+
+    if(value>18){
+    console.log("Positive value')
+    }
+    else if(value>18){
+    console.log("negative value')
+    }
+    else{
+        console.log("Zero value")
+    }
+
+
+    4-Switch  Case Statement
+
+      When we have to write a multiple statement in an conditions 
+      switch case is more preferred way.
+
+      syntax:-
+      switch(expression){
+      case1;
+      statement;
+      break;
+      case2;
+      statement;
+      break;
+      case3;
+      statement;
+      break;
+      default;
+      statement;
+      }
+     
+      example:-
+      const marks = 90;
+      let Grade;
+
+      switch(true){
+        case marks  >= 90;
+        Grade = "Grade A"
+        break;
+
+        case marks  >= 70;
+        Grade = "Grade B"
+        break;
+
+        case marks  >= 60;
+        Grade = "Grade C"
+        break;
+        
+        default;
+        Grade = "Grade E"        
+      }
+
+    
+    5-Ternary Operator
+
+      It is derived by ? this Symbol when we use .
+      example:- 
+      syntax:-
+
+      let value = n;
+      console.log(`${value>n}`)
+
+      example:-
+
+      const age = 18;
+      console.log(`${age>18} "You Can come to the party" : "You cannot come to the party "`)      
+      console.log(age)

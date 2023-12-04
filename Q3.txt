@@ -1,0 +1,50 @@
+There are varieties of loops we use in javscript:-
+1]for loop
+  for loop is used when we have a run a loop based on condition
+  -these loop has 3 conditions 
+  1]Initialization
+  2]condition
+  3]Increment/Decrement
+  for(let i=0; i<18; i++){
+    console.log(i);
+    i++;
+  }
+
+2]while loop
+  This loop is based on conditions if condition is true then it will be executed
+  otherwise it will not executed.
+suntax:-
+while(condition){
+  loop executed..
+}
+
+example:-
+let i = 0;
+while (i<=25) {
+    console.log(i);
+    i++;
+}
+
+3]do - while loop
+ These loop is executed once before changing the conditions
+
+ let i = 0;
+ do{
+ i++;
+ console.log(i)
+ }while(i<5)
+
+5]for-of loop
+  loops through value of the object
+  const a = [1,2,3,4,5]
+  for(const value of a){
+    a+=
+    console.log(a)
+  }
+
+6]for-in loop
+  loops through keys of an object
+  const obj = {1:name, 2:value}
+  for(const v in obj){
+    console.log(obj)
+  }
